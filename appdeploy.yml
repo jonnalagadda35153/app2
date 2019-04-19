@@ -46,7 +46,7 @@ spec:
         app: app
     spec:
       containers:
-        - image: CONTAINER_IMAGE
+        - image: 682651395775.dkr.ecr.us-east-1.amazonaws.com/eks-a-ecrdo-mh3scnb0b43r:app2.master..2019-04-19.16.21.39.258f264e
           imagePullPolicy: Always
           name: app
           ports:
