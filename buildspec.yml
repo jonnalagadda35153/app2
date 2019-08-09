@@ -11,7 +11,6 @@ phases:
       - echo installing maven...
       - apt-get update -y
       - apt-get install software-properties-common
-      - add-apt-repository ppa:openjdk-r/ppa
       - apt-get update
       - apt-get install -y openjdk-7-jdk
       - apt-get install -y maven
